@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  padding-bottom: 30px;
+  position: relative;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "georgia", cursive;
+  color: white;
+}
+
+nav {
+  background-color: transparent;
+}
+
+.aboutme {
+  height: 45%;
+  width: 45%;
+}
+
+.navbar-toggler {
+  color: white;
+  font-size: smaller;
+}
+
+#navbar-brand {
+  padding: 10px;
+  letter-spacing: 4px;
+  font-size: x-large;
+  font-weight: bold;
+  margin-left: 10px;
+  color: white;
+}
+
+.container {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.card {
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: slategray;
+  font-weight: bold;
+}
+a {
+  color: slategray;
+}
+
+footer {
+  clear: both;
+  color: #777;
+  background-color: transparent;
+  padding: 10px;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+}
+
+.btn-primary {
+  background-color: slategray;
+  color: white;
+  border-style: none;
+}
+
+.links {
+  font-size: large;
+}
+
+p {
+  line-height: 150%;
+}
+
+.card-img-top:hover {
+  filter: grayscale(0%);
+}
